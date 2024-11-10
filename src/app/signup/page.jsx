@@ -68,7 +68,7 @@ const SignUp = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-black text-white px-4 sm:px-6 lg:px-8">
-      <div className="relative w-full max-w-md p-6 bg-gray-800 rounded-lg shadow-lg border ">
+      <div className="relative w-full max-w-md p-6 bg-gray-800 rounded-lg shadow-lg  ">
         <div className="text-center mb-8 space-y-4">
           <h1 className="text-2xl font-semibold sm:text-3xl md:text-3xl lg:text-3xl">
             Create an Account with <span className="text-4xl font-thin">Uni</span>

@@ -17,9 +17,9 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@edu\.in$/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@geetauniversity.edu\.in$/;
     if (!emailRegex.test(email)) {
-      setEmailError("Please enter a valid email address with @edu.in");
+      setEmailError("Please enter a valid email address with @geetauniversity.edu.in");
       return;
     }
 
@@ -57,9 +57,9 @@ const SignUp = () => {
 
   const handleForgotPasswordSubmit = (e) => {
     e.preventDefault();
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@edu\.in$/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+geetauniversity.edu\.in$/;
     if (!emailRegex.test(email)) {
-      setEmailError("Please enter a valid email address with @edu.in");
+      setEmailError("Please enter a valid email address with @geetauniversity.edu.in");
       return;
     }
     alert("Password reset link has been sent to your email!");
@@ -132,7 +132,7 @@ const SignUp = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full px-4 py-3 bg-gray-700 text-white rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-300"
-                placeholder="Enter your email (must end with @edu.in)"
+                placeholder="Enter your email (@geetauniversity.edu.in)"
                 required
               />
               {emailError && <p className="text-red-500 text-xs mt-2">{emailError}</p>}

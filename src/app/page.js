@@ -1,24 +1,16 @@
 // Import the Messenger component
-import Sidebar from "./components/Sidebar";
+
 import Messages from "./components/Messages"
 import ChatBox from "./components/ChatBox"
-import Hero from "./components/Hero"
-import ProfileCard from "./components/ProfileCard"
+import HomePage from "./components/Home"
 
 export default function Home() {
   return (
-    <div className="flex  flex-col  ">
+    <div className=" ">
       
-       
+       <HomePage/>
       
-      <main className="flex    flex-col md:flex-row ">
-    
-        <Messages />
-        
-        <ChatBox/>
-        
-      </main>
-      {/* <ProfileCard/> */}
+     
     </div>
   );
 }

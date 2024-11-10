@@ -53,7 +53,7 @@ const Messenger = () => {
       {/* Header */}
       <div className="bg-black rounded-3xl shadow-lg ">
         <div className="flex justify-between items-center px-4 py-3">
-          <h2 className="text-xl font-semibold text-white">All Users (25)</h2>
+          <h2 className="text-xl font-semibold text-white">Chats(25)</h2>
           <FaCommentAlt className="h-6 w-7 text-white cursor-pointer" />
         </div>
         <div className="bg-white rounded-3xl border p-3">

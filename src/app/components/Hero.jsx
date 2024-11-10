@@ -7,6 +7,7 @@ export default function Hero() {
   const [selectedFrequency, setSelectedFrequency] = useState('All');
   const [sidebarOpen, setSidebarOpen] = useState(false); // State for sidebar visibility
   const [profileMenuOpen, setProfileMenuOpen] = useState(false); // State for profile menu visibility
+  
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
@@ -66,8 +67,8 @@ export default function Hero() {
           {/* Search Bar - visible on all screen sizes */}
           <input
             type="text"
-            placeholder="Send Request"
-            className="px-12 py-2 bg-white rounded-full text-black md:w-9/12 focus:outline-none focus:border-4 text-center "
+            placeholder="Send Request ( Name , Roll )"
+            className="px-12 py-2 bg-white rounded-full text-black md:w-9/12 focus:outline-none focus:border-4 text-center hover:border-2  "
           />
 
           {/* Profile Icon and Dropdown Menu */}

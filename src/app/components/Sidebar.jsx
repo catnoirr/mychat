@@ -37,9 +37,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           }`}
         >
           <SidebarIcon icon={<FaHome className="h-6 w-6" />} label="Home" isExpanded={isExpanded} />
-          <SidebarIcon icon={<FaInbox className="h-6 w-6" />} label="Inbox" isExpanded={isExpanded} />
-          <SidebarIcon icon={<FaCalendarAlt className="h-6 w-6" />} label="Calendar" isExpanded={isExpanded} />
-          <SidebarIcon icon={<FaComments className="h-6 w-6" />} label="Comments" isExpanded={isExpanded} />
+          <SidebarIcon icon={<FaInbox className="h-6 w-6" />} label="Request" isExpanded={isExpanded} />
+          <SidebarIcon icon={<FaCalendarAlt className="h-6 w-6" />} label="Users" isExpanded={isExpanded} />
+          <SidebarIcon icon={<FaComments className="h-6 w-6" />} label="Confessions" isExpanded={isExpanded} />
           <SidebarIcon icon={<FaCog className="h-6 w-6" />} label="Settings" isExpanded={isExpanded} />
         </nav>
 

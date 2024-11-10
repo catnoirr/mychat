@@ -40,7 +40,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <SidebarIcon
             icon={<FaHome className="h-6 w-6" />}
             label="Home"
-            path="/"
+            path="/Home"
             isExpanded={isExpanded}
             toggleSidebar={toggleSidebar}
           />

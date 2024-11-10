@@ -20,3 +20,10 @@
 } */
 
 
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for webkit browsers */
+}
+.scroll-container {
+  -ms-overflow-style: none;  /* For IE and Edge */
+  scrollbar-width: none;  /* For Firefox */
+}

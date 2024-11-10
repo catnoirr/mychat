@@ -4,7 +4,7 @@ import { HiMenu } from "react-icons/hi"; // Importing a hamburger icon from reac
 import Sidebar from "./Sidebar"; // Import your Sidebar component
 
 export default function Hero() {
-  const [selectedFrequency, setSelectedFrequency] = useState("All");
+  const [ setSelectedFrequency] = useState("All");
   const [sidebarOpen, setSidebarOpen] = useState(false); // State for sidebar visibility
   const [profileMenuOpen, setProfileMenuOpen] = useState(false); // State for profile menu visibility
 

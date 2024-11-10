@@ -11,7 +11,7 @@ export default function Home() {
       
        
       
-      <main className="flex  md:gap  flex-col md:flex-row ">
+      <main className="flex    flex-col md:flex-row ">
     
         <Messages />
         

@@ -4,7 +4,7 @@ import { FaPaperPlane } from "react-icons/fa";
 function Chat() {
   return (
     <div className="p-4 w-full">
-    <div className="bg-black rounded-3xl shadow-md h-full w-full mt-6 ">
+    <div className="bg-black rounded-3xl shadow-md  w-full mt-6 ">
        
       <header className="flex items-center justify-between bg-black text-white p-4 rounded-t-3xl">
         <h2 className="text-3xl font-semibold">Uni</h2>

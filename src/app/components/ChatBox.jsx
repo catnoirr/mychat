@@ -3,21 +3,24 @@ import { FaPaperPlane } from "react-icons/fa";
 
 function Chat() {
   return (
-    <div className="bg-black rounded-3xl shadow-md h-[85vh] w-[800px] mt-6 mx-auto">
+    <div className="p-4 w-full">
+    <div className="bg-black rounded-3xl shadow-md h-full w-full mt-6 ">
+       
       <header className="flex items-center justify-between bg-black text-white p-4 rounded-t-3xl">
-        <h2 className="text-lg font-semibold">My Coach Cardio</h2>
-        <button className="text-sm underline">History Chat</button>
+        <h2 className="text-3xl font-semibold">Uni</h2>
+        <input type="text "className="p-2 text-center rounded-full border-2  text-black focus:outline-none focus:border-4" placeholder="Search" />
+        {/* <button className="text-sm underline">@offxsagr</button> */}
       </header>
      
       <div className="p-4 bg-white h-full rounded-3xl flex flex-col justify-between border border-gray-200">
         <div className="flex items-center mb-4">
           <img
-            src="https://via.placeholder.com/40"
+            src="./profile.jpg"
             alt="Coach"
             className="w-10 h-10 rounded-full mr-3"
           />
           <div className="flex flex-col">
-            <span className="text-sm font-semibold">Brooklyn Simmons</span>
+            <span className="text-sm font-semibold">Sagar Paswan</span>
             <span className="text-xs text-green-500">Active now</span>
           </div>
         </div>
@@ -80,6 +83,7 @@ function Chat() {
             </span>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

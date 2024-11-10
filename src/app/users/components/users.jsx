@@ -16,6 +16,34 @@ const Messenger = () => {
       unreadCount: 0,
     },
   
+    {
+      name: "Brooklyn Simmons",
+      lastMessage: "Hello, Coach! I want to improve ...",
+      time: "16:25 PM",
+      unreadCount: 0,
+    },
+  
+    {
+      name: "Brooklyn Simmons",
+      lastMessage: "Hello, Coach! I want to improve ...",
+      time: "16:25 PM",
+      unreadCount: 0,
+    },
+  
+    {
+      name: "Brooklyn Simmons",
+      lastMessage: "Hello, Coach! I want to improve ...",
+      time: "16:25 PM",
+      unreadCount: 0,
+    },
+  
+    {
+      name: "Brooklyn Simmons",
+      lastMessage: "Hello, Coach! I want to improve ...",
+      time: "16:25 PM",
+      unreadCount: 0,
+    },
+  
    
   ];
 
@@ -24,7 +52,7 @@ const Messenger = () => {
       {/* Header */}
       <div className="bg-black rounded-3xl shadow-lg  ">
       <div className="flex justify-between items-center  px-4 py-3 ">
-        <h2 className="text-xl font-semibold text-white">Messenger (25)</h2>
+        <h2 className="text-xl font-semibold text-white">All Users (25)</h2>
         <FaCommentAlt className="h-6 w-7 text-white cursor-pointer" />
       </div>
        <div className="bg-white rounded-3xl border p-3" >
@@ -39,9 +67,8 @@ const Messenger = () => {
 
       {/* My Coach Section */}
       <div className="mb-6">
-        <h3 className="font-semibold text-black">Chats</h3>
         <div className="mt-4 space-y-4">
-          {chats.slice(0, 2).map((chat, index) => (
+          {chats.slice().map((chat, index) => (
             <div
               key={index}
               className="flex items-center justify-between p-3 border rounded-3xl shadow-md hover:bg-white hover:text-black hover:border-2"

@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import { FaCommentAlt } from "react-icons/fa";
 import { db } from "../../../firebaseConfig"; // Adjust the path as needed
 import { collection, getDocs } from "firebase/firestore";
 

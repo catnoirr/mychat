@@ -9,7 +9,7 @@ import { db } from "../../firebaseConfig"; // Import Firestore instance
 import { doc, getDoc } from "firebase/firestore"; // Firestore functions
 
 export default function Hero() {
-  const [selectedFrequency, setSelectedFrequency] = useState("All");
+  const [ setSelectedFrequency] = useState("All");
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [profileMenuOpen, setProfileMenuOpen] = useState(false);
   const [userName, setUserName] = useState(""); // State to store user's name
